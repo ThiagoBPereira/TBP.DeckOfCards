@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
+using TBP.DeckOfCards.API.Middleware;
 using TBP.DeckOfCards.Domain;
 using TBP.DeckOfCards.Domain.Interfaces;
 
@@ -51,6 +52,9 @@ namespace TBP.DeckOfCards.API
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "DeckOfCards API V1");
                 });
             }
+
+            //Added middleware to handle specific exceptions
+            app.UseMiddleware<ErrorHandlingMiddleware>();
 
             app.UseHttpsRedirection();
 
