@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Tests", "2 - Tests", "{0365E24D-DE67-4E9F-9E3A-2C52E3D872C0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBP.DeckOfCards.Domain", "src\TBP.DeckOfCards.Domain\TBP.DeckOfCards.Domain.csproj", "{DF065DE5-1118-4720-B21E-F165380B20CA}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBP.DeckOfCards.Domain.UnitTests", "tests\TBP.DeckOfCards.Domain.UnitTests\TBP.DeckOfCards.Domain.UnitTests.csproj", "{E6795949-4893-461E-9590-8DD13334B42C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBP.DeckOfCards.API", "src\TBP.DeckOfCards.API\TBP.DeckOfCards.API.csproj", "{071727F4-729C-4F43-A476-7772FD7298FD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBP.DeckOfCards.Domain", "src\TBP.DeckOfCards.Domain\TBP.DeckOfCards.Domain.csproj", "{DF065DE5-1118-4720-B21E-F165380B20CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
