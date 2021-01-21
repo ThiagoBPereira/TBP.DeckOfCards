@@ -10,7 +10,7 @@ namespace TBP.DeckOfCards.Domain.Helpers
     public static class EnumerableExtension
     {
         /// <summary>
-        /// Centralized methos since the shuffle can be used by another resource
+        /// Method to shuffle a generic list
         /// </summary>
         /// <typeparam name="T">Type</typeparam>
         /// <param name="list">The collection </param>
