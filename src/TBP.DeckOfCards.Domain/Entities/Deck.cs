@@ -53,7 +53,7 @@ namespace TBP.DeckOfCards.Domain
         {
             //No cards available
             if (Cards?.Any() != true)
-                throw new MissingCardsException("There are no more cards.");
+                throw new MissingCardsException("There are no more cards. Please start over.");
 
             //Removing card from the deck
             var card = Cards[0];
