@@ -5,13 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{C14822B5-D42D-4013-954C-AB03435B54DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{6E7DCC71-24A3-480A-AADD-41E61654B449}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{0F953A6E-D1BA-457C-87A3-8BB11239CF8F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{0F953A6E-D1BA-457C-87A3-8BB11239CF8F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{8C72BCEF-6271-4A30-81BC-6696592BAD06}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{0365E24D-DE67-4E9F-9E3A-2C52E3D872C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Tests", "2 - Tests", "{0365E24D-DE67-4E9F-9E3A-2C52E3D872C0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TBP.DeckOfCards.Domain.UnitTests", "tests\TBP.DeckOfCards.Domain.UnitTests\TBP.DeckOfCards.Domain.UnitTests.csproj", "{E6795949-4893-461E-9590-8DD13334B42C}"
 EndProject
